@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "747394162002",
+    "firebase_url": "https://jaundice-582ab.firebaseio.com",
+    "project_id": "jaundice-582ab",
+    "storage_bucket": "jaundice-582ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747394162002:android:1635b30210abc003",
+        "android_client_info": {
+          "package_name": "com.example.android.jaundice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747394162002-346cuj9201cqavmr1hkj2odavemcbguv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.android.jaundice",
+            "certificate_hash": "e5a23de2f421a00d44d573a7c530c32b8aa2dfac"
+          }
+        },
+        {
+          "client_id": "747394162002-o4igrk1evllnuu67lvbp9rphip66uhv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDw3_Ue8K0ffLdpegYjDoboi7_vq824PbY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747394162002-o4igrk1evllnuu67lvbp9rphip66uhv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.android.jaundice.JaundiceInformation">
+    tools:context="com.example.android.jaundice.JaundiceInformation"
+     android:background="@mipmap/bg"
+
+  >
 <ListView
+
+    android:id="@+id/info_list"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"/>
+    android:layout_height="match_parent"
+    />
 
 
-</android.support.constraint.ConstraintLayout>
+</LinearLayout>

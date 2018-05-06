@@ -4,5 +4,128 @@
     <string name="causes"> Causes</string>
     <string name="treatment">Treatment</string>
     <string name="about_us">About Us</string>
+    <string name="more_button">more</string>
+    <string name="upload">Upload</string>
+    <string name="take_photo">Take Photo</string>
+    <!-- information-->
+    <string name="jaundice_information_part1">Jaundice is a term used to describe a"\n"
+        yellowish tinge to the skin and the whites of the eye. Body fluids may also be yellow.
+    </string>
+    <string name="jaundice_information_part2">The color of the skin and whites of the eyes will vary depending on levels of bilirubin."\n"Bilirubin is a waste material found in the blood. Moderate levels lead to a yellow color, while very high levels will appear brown.
+   "\n"About 60 percent of all infants born in the United States have jaundice."\n"However, jaundice can happen to people of all ages and is normally the result of an underlying condition. Jaundice normally indicates a problem with the liver or bile duct.
+In this article,"\n"Medical News Today will discuss what jaundice is, why it happens, and how it is diagnosed and treated."\n"</string>
 
+    <!--types-->
+    <string name="types_title">Types of Jaundice</string>
+    <string name="types_information_part1">
+        PRE HEPATIC "\n"
+    </string>
+    <string name="types_information_part2">
+      Excessive amount of
+      to the liver due to
+      excessive hemolysis
+      Elevated
+      unconjugated bilirubin
+      in serum
+        Hemolytic
+Anemia"\n"
+
+        "\n"HEPATIC: "\n"
+         Impaired cellular
+ uptake, defective
+ conjugation or
+ abnormal secretion
+ of bilirubin by the
+ liver cell
+        Both conjugated and
+unconjugated
+bilirubin may be
+elevated in serum
+        Hepatitis,
+cirrhosis, Crigler-
+Najjar Syndrome,
+Dubin-Johnson
+Syndrome,
+Rotor’s
+Syndrome"\n"
+        "\n"POST HEPATIC :"\n"
+        Impaired excretion due
+to mechanical
+obstruction to bile flow
+        Elevated conjugated
+bilirubin in serum
+       Gallstone,
+malignancy,
+inflammation"\n"
+    </string>
+    <!-- Causes-->
+    <string name="causes_title"> Causes</string>
+    <string name="causes_information_part1">Jaundice occurs when there is:</string>
+    <string name="causes_information_part2">
+   1. too much bilirubin being produced for the liver to remove
+     from the blood (for example, patients with hemolytic anemia
+    have an abnormally rapid rate of destruction of their red
+    blood cells that releases large amounts of bilirubin into the
+    blood)"\n"
+
+    "\n"2. a defect in the liver that prevents bilirubin from being
+    removed from the blood, converted to bilirubin/glucuronic
+    acid (conjugated) or secreted in bile;"\n"
+
+
+        "\n"3- blockage of the bile ducts that decreases the flow of bile
+    and bilirubin from the liver into the intestines. For
+    example, the bile ducts can be blocked by
+    cancer, gallstones, or inflammation of the bile ducts. The
+    decreased conjugation, secretion, or flow of bile that can
+    result in jaundice is referred to as cholestasis:
+    however, cholestasis does not always result in jaundice.
+
+
+    </string>
+    <!--Signs and Symptoms of Jaundice-->
+    <string name="signs_and_symptoms_of_jaundice_title">Symptoms of Jaundice</string>
+    <string name="signs_information_part1">Common signs and symptoms seen in
+individuals with jaundice include:</string>
+    <string name="signs_information_part2">
+  1.  yellow discoloration of the skin"\n"
+  2.  mucous membranes"\n"
+  3.  the whites of the eyes"\n"
+  4.  light-colored stools"\n"
+  5.  dark-colored urine"\n"
+  6.  itching of the skin."\n"
+  7.  nausea and vomiting"\n"
+  8.  abdominal pain"\n"
+  9.  fever"\n"
+  10.weakness"\n"
+  11.loss of appetite"\n"
+  12.headache"\n"
+  13.confusion"\n"
+  14.swelling of the legs and abdomen."\n"
+
+    </string>
+    <!--Treatment-->
+    <string name="treatment_title">Jaundice Treatment </string>
+    <string name="treatment_information_part1">
+        Treatment depends on the cause of the underlying condition leading to jaundice
+        and any potential complications related to it. Once a diagnosis is made, treatment
+        can then be directed to address that particular condition, and it may or may not
+        require hospitalization."\n"
+    </string>
+    <string name="treatment_information_part2">
+        1.   Treatment may consist of expectant management (watchful waiting) at home
+     with rest."\n"
+
+2.   Medical treatment with intravenous fluids, medications, antibiotics, or blood
+     transfusions may be required."\n"
+
+3.   If a drug/toxin is the cause, these must be discontinued."\n"
+
+4.   In certain cases of newborn jaundice, exposing the baby to special colored
+     lights (phototherapy) or exchange blood transfusions may be required to
+     decrease elevated bilirubin levels."\n"
+
+5.   Surgical treatment may be required in case of obstruction jaundice."\n"
+
+    </string>
 </resources>
