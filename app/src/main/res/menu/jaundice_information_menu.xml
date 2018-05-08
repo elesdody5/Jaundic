@@ -4,6 +4,10 @@
         android:title="@string/what_is_jaundice"
 
         />
+    <item
+        android:id="@+id/sign_out"
+        android:title="@string/sign_out"
+        />
 
 
 

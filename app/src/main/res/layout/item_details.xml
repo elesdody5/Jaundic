@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
 
 
     <android.support.v7.widget.CardView
@@ -83,9 +84,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="40dp"
                 android:background="#FFF2F2F4"
-                android:text="more"
+                android:text="@string/more_button"
                 android:clickable="true"
                 android:focusable="true"
+                android:descendantFocusability="blocksDescendants"
                 />
         </LinearLayout>
 

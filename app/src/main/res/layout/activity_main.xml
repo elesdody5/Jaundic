@@ -22,30 +22,38 @@
     android:layout_height="wrap_content"
     android:orientation="horizontal"
     android:visibility="invisible">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/frame"
+        >
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:layout_marginLeft="50dp"
+        android:layout_marginLeft="40dp"
         android:layout_marginRight="10dp"
-
+        android:layout_marginBottom="5dp"
+        android:layout_gravity="start"
         android:text="@string/upload"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
         android:textSize="18sp"
         android:textStyle="bold"
         />
-
+    </FrameLayout>
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/upload_button"
         android:layout_width="@dimen/floating_button_size"
         android:layout_height="@dimen/floating_button_size"
         android:layout_marginBottom="@dimen/floating_button_marginBottom"
+        android:layout_marginLeft="5dp"
 android:clickable="false"
         android:elevation="5dp"
         app:backgroundTint="@color/cardview_light_background"
         app:fabSize="normal"
         app:pressedTranslationZ="12dp"
         app:srcCompat="@drawable/ic_action_upload"
+
         />
 
 
@@ -59,6 +67,10 @@ android:clickable="false"
         android:layout_marginRight="@dimen/floating_button_marginStart"
         android:visibility="invisible"
         >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/frame">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -67,7 +79,7 @@ android:clickable="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             android:textSize="18sp"
             android:textStyle="bold" />
-
+        </FrameLayout>
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/camera_button"
         android:layout_width="@dimen/floating_button_size"

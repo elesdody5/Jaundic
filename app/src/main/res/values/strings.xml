@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">Jaundice</string>
     <string name="what_is_jaundice"> "What's Jaundice"</string>
+    <string name="sign_out">Sign Out</string>
     <string name="causes"> Causes</string>
     <string name="treatment">Treatment</string>
     <string name="about_us">About Us</string>
@@ -79,7 +80,7 @@ inflammation"\n"
     cancer, gallstones, or inflammation of the bile ducts. The
     decreased conjugation, secretion, or flow of bile that can
     result in jaundice is referred to as cholestasis:
-    however, cholestasis does not always result in jaundice.
+    however,cholestasis does not always result in jaundice.
 
 
     </string>

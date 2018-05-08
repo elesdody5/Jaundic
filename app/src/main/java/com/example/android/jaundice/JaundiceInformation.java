@@ -22,6 +22,7 @@ public class JaundiceInformation extends AppCompatActivity {
     private CardView cardView;
     private TextView info_part2;
     private Button moreButton;
+    private TextView title;
     private static final String TAG=JaundiceInformation.class.getSimpleName();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -59,14 +60,16 @@ public class JaundiceInformation extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
             cardView =view.findViewById(R.id.card_view);
+            title = view.findViewById(R.id.info_title);
             info_part2=view.findViewById(R.id.information_part2);
             moreButton= view.findViewById(R.id.more_button);
-            updateCardview();
+                updateCardview();
 
 
 
             }
         });
+
 
 
         
@@ -83,6 +86,12 @@ public class JaundiceInformation extends AppCompatActivity {
     private int getExpandHeight() {
 
         int height= cardView.getHeight()+info_part2.getHeight();
+        String titleString = title.getText().toString();
+        // increase height because  treatment have more information
+        if ( titleString.equals(getString(R.string.treatment_title))) {
+            height += 100;
+            Log.i(TAG, height + "");
+        }
         return height;
     }
 

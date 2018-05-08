@@ -70,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        setTheme(R.style.AppTheme);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         addButton = findViewById(R.id.add_button);
@@ -181,9 +182,13 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        if (id==R.id.jaudice)
 
         startActivity(new Intent(this, JaundiceInformation.class));
 
+        else
+            AuthUI.getInstance().signOut(this);
 
         return true;
     }
@@ -197,7 +202,6 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if (requestCode == RC_SIGN_IN) {
             if (resultCode == RESULT_OK) {
-
                 // Sign-in succeeded, set up the UI
                 Toast.makeText(this, "Signed in!", Toast.LENGTH_SHORT).show();
             } else if (resultCode == RESULT_CANCELED) {
@@ -205,6 +209,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Sign in canceled", Toast.LENGTH_SHORT).show();
                 finish();
             }
+
         }
        else if (requestCode==RC_PHOTO_PICKER&&resultCode==RESULT_OK)
         {
@@ -243,9 +248,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
 
+        if (mFirebaseAuthStateListener != null)
         mFirebaseAuth.removeAuthStateListener(mFirebaseAuthStateListener);
-
         super.onPause();
+
 
     }
 
@@ -253,8 +259,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
 
         mFirebaseAuth.addAuthStateListener(mFirebaseAuthStateListener);
-        super.onResume();
 
+        super.onResume();
     }
     private void TakePictureIntent() {
         Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);

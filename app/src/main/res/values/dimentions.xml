@@ -3,7 +3,7 @@
     <dimen name="CardView_height_shrink">170dp</dimen>
     <dimen name="CardView_margin">10dp</dimen>
     <dimen name="title_size">36dp</dimen>
-    <dimen name="information_height">300dp</dimen>
+    <dimen name="information_height">350dp</dimen>
     <dimen name="cardViewLayoutMargin">5dp</dimen>
     <dimen name="floating_button_marginBottom">20dp</dimen>
     <dimen name="floating_button_marginStart">5dp</dimen>
