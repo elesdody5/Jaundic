@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String ANONYOMUS= "Anonymous";
 
     private static final String TAG = "main";
-
+    MarshMallowPermission marshMallowPermission = new MarshMallowPermission(this);
     private String mUsername;
 
     /*firebase Instance*/
@@ -263,10 +263,19 @@ public class MainActivity extends AppCompatActivity {
         super.onResume();
     }
     private void TakePictureIntent() {
-        Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-        startActivity(takePictureIntent);
+        if (!marshMallowPermission.checkPermissionForCamera()) {
+            marshMallowPermission.requestPermissionForCamera();
+        }
 
-    }
+            if (!marshMallowPermission.checkPermissionForExternalStorage()) {
+                marshMallowPermission.requestPermissionForExternalStorage();
+            }
+
+            Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
+            startActivity(takePictureIntent);
+
+        }
+
     private void openGallary()
     {
         Intent intent = new Intent(Intent.ACTION_GET_CONTENT);
